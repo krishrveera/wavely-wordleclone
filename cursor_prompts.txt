@@ -1,0 +1,38 @@
+(USER) what is the basic mvp of wordle?
+(CURSOR) I'll help you understand the basic MVP (Minimum Viable Product) of Wordle. Wordle is a popular word-guessing game with these core features:
+A secret 5-letter word that players need to guess
+Players get 6 attempts to guess the word
+After each guess, the game provides feedback:
+Green: Letter is correct and in the right position
+Yellow: Letter is in the word but in the wrong position
+Gray: Letter is not in the word
+Let me create a simple web-based MVP of Wordle using HTML, CSS, and JavaScript. I'll create three files:
+First, I'll create an HTML file for the structure.
+{Creates the MVP}
+I've created a basic MVP of Wordle with the following features:
+A 6x5 grid representing the game board
+Keyboard input handling for letters and backspace
+Color-coded feedback:
+Green (correct): Letter is in the correct position
+Yellow (present): Letter is in the word but wrong position
+Gray (absent): Letter is not in the word
+Game state management:
+Tracks current row and tile position
+Handles win/lose conditions
+Displays appropriate messages
+To play the game:
+Open index.html in a web browser
+Type letters using your keyboard
+Press Enter to submit a guess
+Use Backspace to delete letters
+You have 6 attempts to guess the 5-letter word
+The game includes a small set of sample words, but you can easily expand the WORDS array in script.js to include more words.
+Some notable features of this MVP:
+Responsive design that works on different screen sizes
+Proper handling of duplicate letters in words
+Clear visual feedback for correct/present/absent letters
+Game over states for both winning and losing
+
+(USER) Perfect it works! lets style this up a bit though, I like that its minimal, lets remove MVP altogether from the title and then lets give this a sort of pale marine blue baground, and rename Wordle into some other name that you can come up with for a game like this, the text could be in the same font but change the text color to a lighter blue and then the boses themselves could be the same pale light blue like the text, but the text inside the boxes could be the pale marine blue of the baground and then maybe a set of instructions could be given to the left of the screen on how to play the game
+(CURSOR) I'll help you modify the game with a new ocean-themed design. Let's call it "WAVELY" - a word guessing game with a marine aesthetic. I'll update all three files.
+{Updates Files}
